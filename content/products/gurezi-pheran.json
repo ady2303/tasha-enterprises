@@ -1,0 +1,17 @@
+{
+  "name": "Gurezi Pheran",
+  "section": "crafts",
+  "price": 9000,
+  "pack": "1 piece",
+  "available": true,
+  "position": 10,
+  "note": "The long woollen cloak everyone wears through a Kashmiri winter.",
+  "story": "Made by hand in Gurez. Loose, warm and worn over everything.",
+  "uses": [
+    "Message us for sizes and colours"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#7A5A44"
+}

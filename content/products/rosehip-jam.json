@@ -1,0 +1,18 @@
+{
+  "name": "Rosehip Jam",
+  "section": "jams",
+  "price": 280,
+  "pack": "30 g",
+  "available": true,
+  "position": 60,
+  "note": "Wild rosehips from the hedges. A small tasting jar.",
+  "story": "Rosehips are the fruit wild roses leave behind in autumn. Tangy and floral.",
+  "uses": [
+    "On crackers",
+    "Stirred into hot tea"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#B8302A"
+}

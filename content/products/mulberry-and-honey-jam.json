@@ -1,0 +1,18 @@
+{
+  "name": "Mulberry & Honey Jam",
+  "section": "jams",
+  "price": 420,
+  "pack": "200 g",
+  "available": true,
+  "position": 40,
+  "note": "Mulberries picked when they're dark and ripe.",
+  "story": "Deep purple and not too sweet.",
+  "uses": [
+    "Over ice cream",
+    "With pancakes"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#4B2238"
+}

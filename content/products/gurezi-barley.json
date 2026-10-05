@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Barley",
+  "section": "grains",
+  "price": 400,
+  "pack": "1 kg",
+  "available": true,
+  "position": 50,
+  "note": "Whole barley from the high fields.",
+  "story": "Barley handles the Gurez cold well. We put it in soups and grind it for flour.",
+  "uses": [
+    "Add to soups and stews",
+    "Cook like rice for a nutty grain"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#C9A86C"
+}

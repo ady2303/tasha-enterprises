@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Strawberry Juice",
+  "section": "tea",
+  "price": 150,
+  "pack": "1 litre",
+  "available": true,
+  "position": 30,
+  "note": "Juice from strawberries grown in Gurez.",
+  "story": "Made in season when the strawberries are ripe.",
+  "uses": [
+    "Serve chilled",
+    "Keep in the fridge once opened"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#C33A3A"
+}

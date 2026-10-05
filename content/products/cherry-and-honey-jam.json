@@ -1,0 +1,18 @@
+{
+  "name": "Cherry & Honey Jam",
+  "section": "jams",
+  "price": 350,
+  "pack": "200 g",
+  "available": true,
+  "position": 50,
+  "note": "Tart Kashmiri cherries with a little honey.",
+  "story": "Bright, sharp and very red.",
+  "uses": [
+    "On toast",
+    "Swirled into a cake"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#A3202E"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Yellow Rajma",
+  "section": "grains",
+  "price": 500,
+  "pack": "1 kg",
+  "available": true,
+  "position": 10,
+  "note": "The rajma Gurez is known for. Small, yellow and creamy.",
+  "story": "It grows in our short summer and is nothing like the red rajma from the plains. It cooks faster and turns buttery.",
+  "uses": [
+    "Soak overnight, then pressure-cook",
+    "Cook with onion, tomato and a pinch of kala zeera"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#E2B93B"
+}

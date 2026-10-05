@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tasha Enterprises · Honey, rajma and walnuts from Gurez, Kashmir</title>
+<meta name="description" content="A small family business in the Gurez valley, Kashmir. Raw honey, Gurezi rajma, walnuts, kahwa, jams and handmade woollens. Order on WhatsApp.">
+<meta property="og:title" content="Tasha Enterprises, Gurez valley">
+<meta property="og:description" content="Honey, rajma, walnuts and handwork from our village in Gurez, Kashmir. Order on WhatsApp.">
+<meta property="og:image" content="images/honey.jpg">
+<meta name="theme-color" content="#16322C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <div class="wrap bar-in">
+    <a class="logo" href="#top" aria-label="Tasha Enterprises, home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 32 L20 6 L36 32 Z" fill="currentColor"/><path d="M20 6 L15 14 L18 13 L20 16 L22 13 L25 14 Z" fill="var(--snow)"/></svg>
+      <span>Tasha Enterprises</span>
+    </a>
+    <nav class="bar-nav" aria-label="Main">
+      <a href="#story">Our valley</a>
+      <a href="#shop">Shop</a>
+      <a href="#order">How to order</a>
+    </nav>
+    <button class="cart-btn" id="openCart" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.3 11.1a2 2 0 0 1-2 1.9H8.3a2 2 0 0 1-2-1.9z M9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <span>Cart</span><b id="cartCount">0</b>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO: layered paper-cut valley, replaced by images/hero.jpg if you add one -->
+  <section class="hero" aria-label="Welcome">
+    <div class="hero-scene" id="heroScene" aria-hidden="true"></div>
+    <img class="hero-photo" src="images/hero.jpg" alt="" onerror="this.remove()">
+    <div class="wrap hero-copy">
+      <h1>Food and handwork from the Gurez valley</h1>
+      <p>We're a small family business in Gurez, Kashmir. We sell what our valley grows and makes: raw honey, our own rajma, walnuts, kahwa and warm woollens.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-honey" href="#shop">Shop the harvest</a>
+        <a class="btn btn-line" href="#story">See where it comes from</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="band band-stitch" aria-hidden="true"></div>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="wrap story-grid">
+      <div class="story-lead">
+        <h2>Gurez sits at 8,000 feet, on the far side of the Razdan Pass.</h2>
+        <p>For about five months of the year, snow closes the only road out. The rest of the year we farm, gather and store everything we'll need for winter.</p>
+        <p>What grows here is different from what you get in the plains. Our rajma is small and yellow, the walnuts come from old trees around the village, and the honey changes with whatever is flowering on the slopes.</p>
+      </div>
+      <figure class="story-photo">
+        <img src="images/honey.jpg" alt="A jar of Tasha Enterprises Gurezi honey on a wooden board, with mountains behind" loading="lazy">
+        <figcaption>Our Gurezi honey</figcaption>
+      </figure>
+    </div>
+
+    <div class="wrap scenes">
+      <figure class="scene">
+        <div class="scene-art" data-scene="fields" aria-hidden="true"></div>
+        <img src="images/fields.jpg" alt="Fields in Gurez" loading="lazy" onerror="this.remove()">
+        <figcaption><b>The fields</b> Rajma, peas, barley and buckwheat on small family plots.</figcaption>
+      </figure>
+      <figure class="scene">
+        <div class="scene-art" data-scene="forest" aria-hidden="true"></div>
+        <img src="images/forest.jpg" alt="Forest slopes above Gurez" loading="lazy" onerror="this.remove()">
+        <figcaption><b>The slopes</b> Wildflowers for the bees, walnut and hazel trees, and wild greens.</figcaption>
+      </figure>
+      <figure class="scene">
+        <div class="scene-art" data-scene="village" aria-hidden="true"></div>
+        <img src="images/people.jpg" alt="People of Gurez" loading="lazy" onerror="this.remove()">
+        <figcaption><b>The homes</b> Where the pherans and caps are made, mostly through the winter.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- THE GUREZ YEAR -->
+  <section class="year" aria-labelledby="yearTitle">
+    <div class="wrap">
+      <div class="year-head">
+        <h2 id="yearTitle">A year in Gurez</h2>
+        <p>Why some things are only here for part of the year, and why winter orders can take longer.</p>
+      </div>
+      <div class="year-scroll">
+        <div class="year-grid" id="yearGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP -->
+  <section class="shop" id="shop">
+    <div class="wrap shop-head">
+      <h2>What we have this season</h2>
+      <p>Hover for a quick note, or open anything for the full story. When your cart is ready, it goes to us as a WhatsApp message.</p>
+    </div>
+    <nav class="tabs" aria-label="Collections">
+      <div class="wrap tabs-in" id="tabs"></div>
+    </nav>
+    <div class="wrap" id="shelves"></div>
+  </section>
+
+  <div class="band" aria-hidden="true"></div>
+
+  <!-- HOW TO ORDER -->
+  <section class="order" id="order">
+    <div class="wrap">
+      <h2>How to order</h2>
+      <ol class="steps">
+        <li><b>Fill your cart</b><span>Add what you'd like. Your cart stays saved on this phone or computer.</span></li>
+        <li><b>Send it on WhatsApp</b><span>Tap “Send order on WhatsApp”. Your order opens as a ready-made message to us. Press send.</span></li>
+        <li><b>We confirm, you pay</b><span>We reply with the delivery charge and payment details. Once paid, we pack it and send it off.</span></li>
+      </ol>
+      <p class="order-note">Ordering between November and April? The pass is snowed in, so some things take longer to reach you. Send your order anyway and we'll tell you honestly what we can ship and when.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <p class="foot-name">Tasha Enterprises</p>
+      <p>Kashmiri and Gurezi natural products<br>Gurez, Bandipora, Jammu &amp; Kashmir</p>
+    </div>
+    <div class="foot-links">
+      <a id="footWa" href="#" target="_blank" rel="noopener">WhatsApp <span id="footWaNum"></span></a>
+      <a id="footIg" href="#" target="_blank" rel="noopener">Instagram @<span id="footIgName"></span></a>
+    </div>
+  </div>
+</footer>
+
+<!-- floating cart bar -->
+<div class="floater" id="floater" hidden>
+  <button type="button" id="floatBtn"><span id="floatCount"></span><span>View cart <b id="floatTot"></b></span></button>
+</div>
+
+<!-- product detail -->
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+  <button class="close" type="button" data-close aria-label="Close">×</button>
+  <div class="sheet-grid">
+    <div class="sheet-art" id="sheetArt"></div>
+    <div class="sheet-body">
+      <p class="sheet-col" id="sheetCol"></p>
+      <h3 id="sheetTitle"></h3>
+      <p class="sheet-price"><b id="sheetPrice"></b> <span id="sheetPack"></span></p>
+      <p class="sheet-story" id="sheetStory"></p>
+      <div class="sheet-block">
+        <h4>How we use it</h4>
+        <ul id="sheetUses"></ul>
+      </div>
+      <p class="sheet-keep" id="sheetKeep"></p>
+      <div class="sheet-why" id="sheetWhy" hidden><h4 id="sheetWhyTitle">Why people keep it</h4><p id="sheetWhyText"></p></div>
+      <div class="sheet-ctl" id="sheetCtl"></div>
+    </div>
+  </div>
+</dialog>
+
+<!-- cart -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-labelledby="cartTitle" role="dialog" aria-modal="true">
+  <div class="d-head"><h3 id="cartTitle">Your cart</h3><button class="close" id="closeCart" type="button" aria-label="Close cart">×</button></div>
+  <div class="d-body">
+    <div id="lines"></div>
+    <form class="fields" id="details" autocomplete="on">
+      <label for="cName">Your name<input id="cName" type="text" autocomplete="name"></label>
+      <label for="cAddr">Delivery address with pincode<textarea id="cAddr" autocomplete="street-address" rows="3"></textarea></label>
+      <label for="cNote">Anything else? (optional)<input id="cNote" type="text" placeholder="Gift wrap, delivery timing"></label>
+    </form>
+  </div>
+  <div class="d-foot">
+    <div class="tot"><span>Subtotal</span><b id="subtotal">₹0</b></div>
+    <p class="small">Delivery is added when we confirm on WhatsApp.</p>
+    <a class="wa-btn" id="waBtn" href="#" target="_blank" rel="noopener" aria-disabled="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+      Send order on WhatsApp
+    </a>
+    <button class="copy" id="copyBtn" type="button">Copy order instead</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="js/scenes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

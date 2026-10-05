@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Garlic Pickle",
+  "section": "pantry",
+  "price": 300,
+  "pack": "500 g",
+  "available": true,
+  "position": 80,
+  "note": "Made with our own Gurezi garlic.",
+  "story": "Whole cloves in spiced oil. Strong, in a good way.",
+  "uses": [
+    "With rice and dal",
+    "On the side with parathas"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#C27A2E"
+}

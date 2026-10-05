@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Garlic",
+  "section": "pantry",
+  "price": 220,
+  "pack": "1 kg",
+  "available": true,
+  "position": 30,
+  "note": "Small mountain garlic with a strong, sharp taste.",
+  "story": "Smaller cloves than market garlic, and more flavour in each.",
+  "uses": [
+    "Everyday cooking",
+    "Pickling"
+  ],
+  "keep": "",
+  "why": "Garlic's strength comes from allicin, which forms when you cut it. Crush a clove and let it sit a few minutes before it goes in the pan, and you keep more of it.",
+  "photo": "/images/products/garlic.jpg",
+  "colour": "#D9CFBF"
+}

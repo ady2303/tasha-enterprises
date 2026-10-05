@@ -1,0 +1,18 @@
+{
+  "name": "Apricot, Almond & Honey Jam",
+  "section": "jams",
+  "price": 370,
+  "pack": "200 g",
+  "available": true,
+  "position": 30,
+  "note": "Summer apricots with almond and honey.",
+  "story": "Apricots are the fruit of a Kashmiri summer. This jar keeps them for winter.",
+  "uses": [
+    "On toast",
+    "As a filling for tarts"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#E0892E"
+}

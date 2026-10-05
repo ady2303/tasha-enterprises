@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Mixed Rajma",
+  "section": "grains",
+  "price": 300,
+  "pack": "1 kg",
+  "available": true,
+  "position": 30,
+  "note": "A handful of every rajma we grow, mixed together.",
+  "story": "Different colours, slightly different textures. Cooked together they make a thick, hearty dal.",
+  "uses": [
+    "Soak overnight",
+    "Rajma-chawal or a winter soup"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#7D4636"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gurezi Muffler",
+  "section": "crafts",
+  "price": 400,
+  "pack": "1 piece",
+  "available": true,
+  "position": 30,
+  "note": "A woollen muffler, woven at home.",
+  "story": "Soft, warm and long enough to wrap twice.",
+  "uses": [
+    "Message us for colours"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#9C8A70"
+}

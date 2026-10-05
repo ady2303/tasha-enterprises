@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Chitra Rajma",
+  "section": "grains",
+  "price": 400,
+  "pack": "1 kg",
+  "available": true,
+  "position": 20,
+  "note": "Speckled beans that hold their shape.",
+  "story": "Chitra means speckled. These stay firm after cooking, so they work in salads and dry sabzis.",
+  "uses": [
+    "Soak for 8 hours before cooking",
+    "Boil and toss into a salad"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "/images/products/chitra-rajma.jpg",
+  "colour": "#B77F66"
+}

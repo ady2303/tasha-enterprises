@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Daed",
+  "section": "pantry",
+  "price": 2000,
+  "pack": "1 kg",
+  "available": true,
+  "position": 90,
+  "note": "A leafy green from Gurez that you won't find in city markets.",
+  "story": "A wild green that Gurezi families cook at home.",
+  "uses": [
+    "Cook it like saag",
+    "Message us and we'll share how we cook it"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#4F7A3A"
+}

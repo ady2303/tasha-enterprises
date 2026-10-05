@@ -1,0 +1,18 @@
+{
+  "name": "Saffron Honey",
+  "section": "honey",
+  "price": 1400,
+  "pack": "1 kg",
+  "available": true,
+  "position": 40,
+  "note": "Honey with Kashmiri saffron steeped in until it turns gold.",
+  "story": "We add saffron threads to the honey and leave them to sit. The colour and smell come through in a few days.",
+  "uses": [
+    "In warm milk at night",
+    "Over kheer or phirni"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#D9791C"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Hazelnut",
+  "section": "nuts",
+  "price": 1200,
+  "pack": "1 kg",
+  "available": true,
+  "position": 30,
+  "note": "Wild hazelnuts, small and full of flavour.",
+  "story": "Hazel grows wild on the Gurez slopes. We gather the nuts in autumn.",
+  "uses": [
+    "Roast lightly before eating",
+    "Crush over desserts"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#8A5A35"
+}

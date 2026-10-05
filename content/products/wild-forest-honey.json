@@ -1,0 +1,18 @@
+{
+  "name": "Wild Forest Honey",
+  "section": "honey",
+  "price": 1000,
+  "pack": "1 kg",
+  "available": true,
+  "position": 30,
+  "note": "Dark and strong, from hives near the forest edge.",
+  "story": "The bees feed on whatever is flowering in the woods that season, so every batch tastes a little different.",
+  "uses": [
+    "With warm water and lemon",
+    "In baking, where a deep flavour helps"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#A8621A"
+}

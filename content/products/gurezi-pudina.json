@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Pudina",
+  "section": "pantry",
+  "price": 2000,
+  "pack": "1 kg",
+  "available": true,
+  "position": 110,
+  "note": "Mountain mint, stronger than the mint you're used to.",
+  "story": "It grows wild near the streams in Gurez.",
+  "uses": [
+    "Chutney and raita",
+    "In kahwa or tea"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#5D9150"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gurezi Topi",
+  "section": "crafts",
+  "price": 1050,
+  "pack": "1 piece",
+  "available": true,
+  "position": 20,
+  "note": "The embroidered Gurezi cap.",
+  "story": "The patterns on these caps are specific to Gurez.",
+  "uses": [
+    "Message us for colours and sizes"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#5A2230"
+}

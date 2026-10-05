@@ -1,0 +1,18 @@
+{
+  "name": "Wild Black Zeera (Kala Zeera)",
+  "section": "pantry",
+  "price": 12000,
+  "pack": "1 kg",
+  "available": true,
+  "position": 10,
+  "note": "Wild black cumin, picked by hand on the high slopes. Our rarest product.",
+  "story": "Kala zeera grows wild and takes hours to collect. A pinch changes a whole dish.",
+  "uses": [
+    "Temper dal and rice with it",
+    "Add to biryani and yakhni"
+  ],
+  "keep": "",
+  "why": "This is what gives Kashmiri biryani and yakhni their deep, smoky flavour. At home it's also the old fix for a heavy stomach after a rich meal. (It's not kalonji, which is a different seed.)",
+  "photo": "/images/products/kala-zeera.jpg",
+  "colour": "#3A3431"
+}

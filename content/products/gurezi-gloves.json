@@ -1,0 +1,17 @@
+{
+  "name": "Gurezi Gloves",
+  "section": "crafts",
+  "price": 700,
+  "pack": "1 piece",
+  "available": true,
+  "position": 40,
+  "note": "Warm woollen gloves, made for real winters.",
+  "story": "Knitted by hand in the valley.",
+  "uses": [
+    "Message us for sizes"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#4A4440"
+}

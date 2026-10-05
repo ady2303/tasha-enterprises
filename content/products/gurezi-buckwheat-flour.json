@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Buckwheat Flour",
+  "section": "grains",
+  "price": 300,
+  "pack": "1 kg",
+  "available": true,
+  "position": 100,
+  "note": "Buckwheat, ground fine. Naturally gluten-free.",
+  "story": "Buckwheat grows in the hills around Gurez. It makes dark, earthy rotis and pancakes.",
+  "uses": [
+    "Rotis or pancakes",
+    "Popular for fasting days"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#A1876A"
+}

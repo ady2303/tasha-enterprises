@@ -1,0 +1,18 @@
+{
+  "name": "Red Chilli Powder",
+  "section": "pantry",
+  "price": 600,
+  "pack": "1 kg",
+  "available": true,
+  "position": 20,
+  "note": "Kashmiri chilli: deep red colour, gentle heat.",
+  "story": "This is what gives rogan josh its colour without making it fiery.",
+  "uses": [
+    "Rogan josh and other Kashmiri curries",
+    "Anywhere you want colour more than heat"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#B7312A"
+}

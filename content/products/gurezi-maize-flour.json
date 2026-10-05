@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Maize Flour",
+  "section": "grains",
+  "price": 80,
+  "pack": "1 kg",
+  "available": true,
+  "position": 70,
+  "note": "Coarse flour from maize grown and dried in the valley.",
+  "story": "Stone-ground and a little rough, the way it should be for makki roti.",
+  "uses": [
+    "Makki roti",
+    "To thicken soups"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#E7C45A"
+}

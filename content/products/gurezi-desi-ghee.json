@@ -1,0 +1,18 @@
+{
+  "name": "Gurezi Desi Ghee",
+  "section": "pantry",
+  "price": 1200,
+  "pack": "1 kg",
+  "available": true,
+  "position": 40,
+  "note": "Ghee made at home in Gurez, the slow way.",
+  "story": "Slow-cooked from butter until it smells nutty.",
+  "uses": [
+    "On a hot roti",
+    "Tadka for dal"
+  ],
+  "keep": "",
+  "why": "A little ghee helps your body take in vitamins A, D, E and K from the rest of your food. Kashmiri cooking has run on it for generations. A spoon a day goes a long way.",
+  "photo": "/images/products/ghee.jpg",
+  "colour": "#E6C258"
+}

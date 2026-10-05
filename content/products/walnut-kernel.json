@@ -1,0 +1,18 @@
+{
+  "name": "Walnut Kernel",
+  "section": "nuts",
+  "price": 1300,
+  "pack": "1 kg",
+  "available": true,
+  "position": 20,
+  "note": "Already shelled by hand, so you don't have to.",
+  "story": "Halves and pieces together, sorted at home.",
+  "uses": [
+    "A handful with morning tea",
+    "In cakes, salads and chutney"
+  ],
+  "keep": "Keep in the fridge in summer.",
+  "why": "Walnuts are one of the few nuts with plant omega-3s, and they bring protein, magnesium and vitamin E along with them. A few a day is plenty.",
+  "photo": "",
+  "colour": "#B78A58"
+}

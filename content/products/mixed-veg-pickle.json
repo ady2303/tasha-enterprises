@@ -1,0 +1,18 @@
+{
+  "name": "Mixed Veg Pickle",
+  "section": "pantry",
+  "price": 180,
+  "pack": "500 g",
+  "available": true,
+  "position": 70,
+  "note": "Home-style pickle with the season's vegetables.",
+  "story": "Made the way we make it for our own kitchen.",
+  "uses": [
+    "With dal-chawal",
+    "With parathas"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#B5552A"
+}

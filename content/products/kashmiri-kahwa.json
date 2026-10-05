@@ -1,0 +1,18 @@
+{
+  "name": "Kashmiri Kahwa",
+  "section": "tea",
+  "price": 400,
+  "pack": "100 g",
+  "available": true,
+  "position": 10,
+  "note": "Our kahwa mix: green tea, saffron, spices and dry fruit. Ten things in all.",
+  "story": "Every Kashmiri home has its own kahwa. This is ours, ready to brew.",
+  "uses": [
+    "Simmer 1 tsp per cup for 3–4 minutes",
+    "Add honey and a few crushed almonds"
+  ],
+  "keep": "Keep in an airtight jar, away from light.",
+  "why": "Kahwa is what we pour for guests and drink after a heavy meal. The cardamom and cinnamon settle the stomach, and the green tea gives a gentle lift without the jolt of coffee.",
+  "photo": "/images/products/kahwa.jpg",
+  "colour": "#C98A2B"
+}

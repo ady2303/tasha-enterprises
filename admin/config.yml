@@ -1,0 +1,171 @@
+# Tasha Enterprises admin (Sveltia CMS)
+# The only line you must change before going live is `repo:` below. See SETUP.md.
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/tasha-website
+  branch: main
+  commit_messages:
+    create: "Add product: {{slug}}"
+    update: "Update {{collection}}: {{slug}}"
+    delete: "Remove product: {{slug}}"
+    uploadMedia: "Add photo: {{path}}"
+    deleteMedia: "Remove photo: {{path}}"
+
+app_title: Tasha Enterprises admin
+
+# Product photos are saved here. Large phone photos are shrunk and converted before upload.
+media_folder: /images/products
+public_folder: /images/products
+media_libraries:
+  default:
+    config:
+      max_file_size: 20000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 1400
+          height: 1400
+
+collections:
+  - name: products
+    label: Products
+    label_singular: Product
+    description: Everything in the shop. Open a product to change it, or press New to add one. Press Save when you're done and the website updates in a minute or two.
+    folder: /content/products
+    extension: json
+    format: json
+    create: true
+    delete: true
+    identifier_field: name
+    slug: "{{slug}}"
+    summary: "{{name}} · ₹{{price}} · {{pack}}"
+    thumbnail: photo
+    sortable_fields:
+      fields: [name, price, section, position]
+      default:
+        field: name
+        direction: ascending
+    view_filters:
+      - label: Sold out
+        field: available
+        pattern: false
+      - label: No photo yet
+        field: photo
+        pattern: "^$"
+    view_groups:
+      - label: Section
+        field: section
+    fields:
+      - label: Product name
+        name: name
+        widget: string
+        hint: As customers will see it, e.g. Gurezi Yellow Rajma.
+      - label: Section
+        name: section
+        widget: select
+        default: honey
+        options:
+          - { label: Honey, value: honey }
+          - { label: "Rajma & grains", value: grains }
+          - { label: "Walnuts & almonds", value: nuts }
+          - { label: Jams, value: jams }
+          - { label: "Kahwa & teas", value: tea }
+          - { label: "Spices & pantry", value: pantry }
+          - { label: "Shilajit & care", value: wellness }
+          - { label: Handmade in Gurez, value: crafts }
+      - label: Price in ₹
+        name: price
+        widget: number
+        value_type: int
+        min: 0
+        hint: Numbers only, no ₹ sign or commas.
+      - label: Pack size
+        name: pack
+        widget: string
+        hint: For example 1 kg, 200 g, 1 litre, 1 piece.
+      - label: In stock
+        name: available
+        widget: boolean
+        default: true
+        hint: Turn this off when it's sold out. The product stays on the site with a "Sold out · ask us" button that opens WhatsApp.
+      - label: Photo
+        name: photo
+        widget: image
+        required: false
+        hint: Square photos look best. Without a photo the site shows a drawing.
+      - label: Short line
+        name: note
+        widget: string
+        hint: One sentence. Shown when someone hovers over the product, and at the start of its page.
+      - label: Story
+        name: story
+        widget: text
+        required: false
+        hint: One or two short sentences about where it comes from or what makes it different.
+      - label: How we use it
+        name: uses
+        widget: list
+        required: false
+        field: { label: Tip, name: tip, widget: string }
+        hint: One tip per line, e.g. "Soak overnight, then pressure-cook".
+      - label: Why people keep it
+        name: why
+        widget: text
+        required: false
+        hint: Optional. Everyday reasons people buy it. Please don't promise health results like "cures" or "boosts immunity".
+      - label: Storage tip
+        name: keep
+        widget: string
+        required: false
+        hint: Optional, e.g. "Keep in the fridge once opened."
+      - label: Position in section
+        name: position
+        widget: number
+        value_type: int
+        default: 100
+        hint: Lower numbers show first. Use 10, 20, 30 so there's room to slot things in between.
+      - label: Card colour
+        name: colour
+        widget: color
+        required: false
+        hint: Optional. Colours the drawing shown when there's no photo.
+
+  - name: settings
+    label: Shop settings
+    files:
+      - name: shop
+        label: Contact details and sections
+        file: /content/settings.json
+        fields:
+          - label: WhatsApp number for orders
+            name: whatsapp_number
+            widget: string
+            hint: Digits only, starting with 91. For example 918708347936.
+            pattern: ['^91\d{10}$', 'Use 91 followed by the 10-digit mobile number, with no spaces or +.']
+          - label: WhatsApp number as shown on the site
+            name: whatsapp_display
+            widget: string
+            hint: For example +91 87083 47936.
+          - label: Instagram handle
+            name: instagram
+            widget: string
+            hint: Without the @.
+          - label: Shop sections
+            name: sections
+            widget: list
+            allow_add: false
+            allow_remove: false
+            hint: Rename a section or change its description here. Ask whoever set up the site to add a brand-new section.
+            summary: "{{name}}"
+            fields:
+              - { label: Section ID, name: id, widget: hidden }
+              - { label: Drawing style, name: art, widget: hidden }
+              - { label: Section name, name: name, widget: string }
+              - { label: Description, name: intro, widget: text }
+              - { label: Section colour, name: color, widget: color }
+              - { label: Highlight box title, name: note_title, widget: string, required: false, hint: Optional box shown under the section. }
+              - { label: Highlight box text, name: note_text, widget: text, required: false }
+              - { label: Highlight box photo, name: note_image, widget: image, required: false }

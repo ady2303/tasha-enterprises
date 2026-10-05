@@ -1,0 +1,18 @@
+{
+  "name": "Sulai Honey",
+  "section": "honey",
+  "price": 1200,
+  "pack": "1 kg",
+  "available": true,
+  "position": 10,
+  "note": "Our palest honey, from the white sulai flowers on the hillsides.",
+  "story": "Sulai is a wild shrub that flowers across the Kashmir hills in late summer. Its honey is almost white and sets thick and creamy.",
+  "uses": [
+    "A spoon in warm water on cold mornings",
+    "On toast or a hot roti"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#EBCB7A"
+}

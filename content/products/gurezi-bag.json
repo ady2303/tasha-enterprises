@@ -1,0 +1,17 @@
+{
+  "name": "Gurezi Bag",
+  "section": "crafts",
+  "price": 250,
+  "pack": "1 piece",
+  "available": true,
+  "position": 50,
+  "note": "A cloth bag with Gurezi embroidery.",
+  "story": "Handy, light and colourful.",
+  "uses": [
+    "Designs vary, message us for photos"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#2F3A4A"
+}

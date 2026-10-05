@@ -1,0 +1,17 @@
+{
+  "name": "Paper Tree Cup",
+  "section": "crafts",
+  "price": 1200,
+  "pack": "1 piece",
+  "available": true,
+  "position": 60,
+  "note": "Handmade in Gurez.",
+  "story": "Ask us on WhatsApp and we'll send you photos of the current pieces.",
+  "uses": [
+    "Message us for photos"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#B89A6A"
+}

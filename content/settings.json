@@ -1,0 +1,69 @@
+{
+  "whatsapp_number": "918708347936",
+  "whatsapp_display": "+91 87083 47936",
+  "instagram": "tashaenterprises_786",
+  "sections": [
+    {
+      "id": "honey",
+      "name": "Honey",
+      "intro": "Raw honey, sold by the kilo. It isn't heated or filtered, so it can set thick in the cold. Stand the jar in warm water and it loosens.",
+      "art": "jar",
+      "color": "#E3A21A",
+      "note_title": "Why families here keep honey at home",
+      "note_text": "In Gurez, a spoon of honey in warm water is what you reach for when your throat feels scratchy. Plenty of families use it in place of sugar, and in home face packs.",
+      "note_image": "/images/honey.jpg"
+    },
+    {
+      "id": "grains",
+      "name": "Rajma & grains",
+      "intro": "Beans and grains from small family fields. Gurez has one short growing season, so what we have depends on the year's harvest.",
+      "art": "bowl",
+      "color": "#B5653B",
+      "note_title": "Why rajma is on our table most days",
+      "note_text": "Rajma is one of the best plant proteins you can buy. It's full of fibre, iron and folate, and one bowl keeps you going for hours. In the cold months that matters.",
+      "note_image": "/images/products/chitra-rajma.jpg"
+    },
+    {
+      "id": "nuts",
+      "name": "Walnuts & almonds",
+      "intro": "From the walnut and hazel trees on the slopes around our village, picked in autumn.",
+      "art": "nuts",
+      "color": "#7B5234"
+    },
+    {
+      "id": "jams",
+      "name": "Jams",
+      "intro": "Small batches, cooked at home with fruit from the valley. Keep in the fridge once opened.",
+      "art": "jam",
+      "color": "#A3202E"
+    },
+    {
+      "id": "tea",
+      "name": "Kahwa & teas",
+      "intro": "For the cup, the way we drink it at home.",
+      "art": "cup",
+      "color": "#2F6F6A"
+    },
+    {
+      "id": "pantry",
+      "name": "Spices & pantry",
+      "intro": "Everyday things from Gurezi kitchens, and a few wild ones you won't find in city shops.",
+      "art": "spice",
+      "color": "#8C2F24"
+    },
+    {
+      "id": "wellness",
+      "name": "Shilajit & care",
+      "intro": "Traditional Himalayan staples. If you take regular medicines, check with your doctor before trying shilajit.",
+      "art": "stick",
+      "color": "#3B2E24"
+    },
+    {
+      "id": "crafts",
+      "name": "Handmade in Gurez",
+      "intro": "Woollens and crafts made by hand in village homes, mostly through the long winter. Every piece is a little different.",
+      "art": "textile",
+      "color": "#5A2230"
+    }
+  ]
+}

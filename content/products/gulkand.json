@@ -1,0 +1,18 @@
+{
+  "name": "Gulkand",
+  "section": "pantry",
+  "price": 400,
+  "pack": "500 g",
+  "available": true,
+  "position": 60,
+  "note": "Rose petals slow-cooked in sugar until soft and jammy.",
+  "story": "Sweet, floral and cooling in summer.",
+  "uses": [
+    "A spoon after meals",
+    "In milkshakes or paan"
+  ],
+  "keep": "",
+  "why": "On hot days a spoon of gulkand after lunch is how people cool down. It's an old mouth freshener too, and many take it to settle the stomach after a big meal.",
+  "photo": "/images/products/gulkand.jpg",
+  "colour": "#B23A5A"
+}

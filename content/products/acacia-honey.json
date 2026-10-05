@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Honey",
+  "section": "honey",
+  "price": 1200,
+  "pack": "1 kg",
+  "available": true,
+  "position": 20,
+  "note": "Clear and mild. Start here if you're new to raw honey.",
+  "story": "Acacia honey stays runny for a long time and has a soft, clean taste that doesn't take over your tea.",
+  "uses": [
+    "Stir into kahwa or green tea",
+    "Over curd or cut fruit"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#E9B949"
+}

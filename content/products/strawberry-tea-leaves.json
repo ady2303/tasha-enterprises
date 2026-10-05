@@ -1,0 +1,18 @@
+{
+  "name": "Strawberry Tea Leaves",
+  "section": "tea",
+  "price": 500,
+  "pack": "100 g",
+  "available": true,
+  "position": 20,
+  "note": "Tea made from strawberry plant leaves. Light and fruity.",
+  "story": "Caffeine-free and gentle, good in the evening.",
+  "uses": [
+    "Steep 1 tsp in hot water for 5 minutes",
+    "Sweeten with honey"
+  ],
+  "keep": "",
+  "why": "",
+  "photo": "",
+  "colour": "#9A4A3A"
+}
