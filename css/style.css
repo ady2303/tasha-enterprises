@@ -74,6 +74,23 @@ a{text-underline-offset:.2em;text-decoration-thickness:1px}
 .hero:has(.hero-photo) h1,.hero:has(.hero-photo) .hero-copy p{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.35)}
 @media (max-width:640px){.hero{min-height:760px}.hero-copy{padding-top:calc(96px + env(safe-area-inset-top,0px))}}
 
+
+/* darken + vignette over the hero photo (only applies when a photo is present) */
+.hero:has(.hero-photo)::after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(ellipse at 40% 45%, rgba(0,0,0,0) 35%, rgba(0,0,0,.5) 100%),
+    linear-gradient(90deg, rgba(10,24,21,.6) 0%, rgba(10,24,21,.2) 65%, rgba(10,24,21,.1) 100%),
+    linear-gradient(to bottom, rgba(10,24,21,.45) 0, rgba(10,24,21,0) 22%);
+}
+
+/* the nav is dark ink by default, so flip it to white while it floats over the photo */
+body:has(.hero-photo) .bar:not(.solid){color:#fff}
+body:has(.hero-photo) .bar:not(.solid) .logo svg{color:#fff}
+
+/* outlined button needs light text on a dark photo */
+.hero:has(.hero-photo) .btn-line{border-color:#fff;color:#fff;background:rgba(255,255,255,.08)}
+
 /* scene layers animate in once */
 .layer{transform-box:fill-box}
 /* Focal moment: the paper-cut valley assembles front to back, far ridges pulling into focus,
