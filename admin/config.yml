@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/tasha-website
+  repo: ady2303/tasha-enterprises
   branch: main
   commit_messages:
     create: "Add product: {{slug}}"
